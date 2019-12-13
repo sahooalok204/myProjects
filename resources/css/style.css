@@ -14,7 +14,7 @@ html {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -75,4 +75,34 @@ h1 {
 .btn-secondary:hover, .btn-secondary:active {
     border: 1px solid #f75b20;
     color: #fff;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top:70px ;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.main-nav li a:link,.main-nav li a:visited{
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #fff;
+    padding: 8px 0;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.45s;
+}
+
+.main-nav li a:hover,.main-nav li a:active{
+    border-bottom: 2px solid #f87341;
 }
